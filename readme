@@ -1,0 +1,45 @@
+# Gerenciador de Rede Social com Interface Gráfica
+
+Este projeto implementa um sistema simples de rede social em **Python**, com **interface gráfica (Tkinter)**, **banco de dados SQLite** e **visualizações gráficas (NetworkX + Matplotlib)**.  
+Permite cadastrar usuários, criar conexões entre eles, consultar caminhos percorridos, visualizar grupos e grafos, além de gerenciar e limpar dados.
+
+---
+
+## 📌 Funcionalidades
+
+- **Gerenciar Usuários**
+  - Adicionar usuários
+  - Listar usuários
+  - Remover usuários
+
+- **Gerenciar Conexões**
+  - Criar conexões entre usuários
+  - Limpar todas as conexões
+
+- **Consultas**
+  - Verificar se dois usuários estão conectados
+  - Mostrar o **caminho percorrido** entre eles (quando existir)
+
+- **Visualizações**
+  - Visualização das conexões
+  - Visualização de grupos (componentes conectados)
+  - Visualização do grafo completo da rede
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3**
+- **Tkinter** (Interface gráfica)
+- **SQLite3** (Banco de dados local)
+- **NetworkX** (Modelagem e cálculos em grafos)
+- **Matplotlib** (Visualização dos grafos)
+
+---
+
+## ▶️ Como Executar
+
+1. **Clone ou baixe o projeto**
+   ```bash
+   git clone https://github.com/seuusuario/rede-social-grafos.git
+   cd rede-social-grafos
